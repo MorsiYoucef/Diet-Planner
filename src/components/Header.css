@@ -1,0 +1,21 @@
+.logo-img {
+  display: flex;
+  justify-content: flex-start;
+  height: 100px;
+  width: 170px;
+  margin-left: 80px;
+}
+.Top-Bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  margin-right: 150px;
+  list-style-type: none;
+}

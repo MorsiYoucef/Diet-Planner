@@ -1,0 +1,15 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-direction: row;
+  background-color: rgb(255, 230, 109);
+  height: 260px;
+}
+.txtfooter {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 5px;
+  list-style-type: none;
+}
