@@ -3,35 +3,37 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  color: black;
-  font-family: 'Rubik', sans-serif;
 }
 table,
 th,
 td {
   width: 1300px;
   height: 50px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-collapse: collapse;
   text-align: center;
+  color: white;
 }
 th,
 td {
   background-color: #159f93;
 }
-.All {
+.All-table {
+  height: 912px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 80px;
+  margin-top: 0px;
   gap: 50px;
-}
-body {
+
+  font-family: 'Rubik', sans-serif;
   background: rgb(21, 159, 147);
   background: radial-gradient(
     circle,
     rgba(21, 159, 147, 1) 63%,
     rgba(179, 184, 28, 1) 100%
   );
+}
+body {
 }

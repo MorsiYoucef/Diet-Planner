@@ -15,9 +15,9 @@ const Table = () => {
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     tableInstance
   return (
-    <div className="All">
+    <div className="All-table">
       {/* <Header /> */}
-      <h1>Your Diet Plan:</h1>
+      <h1 style={{ color: 'white' }}>Your Diet Plan:</h1>
       <table {...getTableProps()}>
         <thead>
           {headerGroups.map((headerGroup) => (

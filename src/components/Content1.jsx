@@ -16,7 +16,7 @@ const Content1 = () => {
         </p>
         <h3 className="header-2">Select your gender</h3>
         <div className="buttons">
-          <Link to="/Table">
+          <Link to="/Quiz">
             <button className="btn-2">Female</button>
           </Link>
           <button className="btn-1">Male</button>
