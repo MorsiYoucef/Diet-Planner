@@ -17,7 +17,7 @@ const Table = () => {
   return (
     <div className="All-table">
       {/* <Header /> */}
-      <h1 style={{ color: 'white' }}>Your Diet Plan:</h1>
+      <h1 style={{ color: 'white' }}>Here is your Diet Plan:</h1>
       <table {...getTableProps()}>
         <thead>
           {headerGroups.map((headerGroup) => (

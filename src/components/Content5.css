@@ -1,0 +1,22 @@
+/* style="height: 150; width: 140px; border: 4px solid #3882F6;border-radius: 8px;"
+style="margin-left: 150px; width: 140px;" */
+.ano-footer {
+  background-color: rgb(124, 171, 130);
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  text-align: center;
+  font-family: 'AR One Sans', sans-serif;
+  color: #1f2937;
+  padding-bottom: 50px;
+}
+.foo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.feedback {
+  width: 500px;
+}

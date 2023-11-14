@@ -1,0 +1,25 @@
+.stuff {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-stuff {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.img-item {
+  border-radius: 30px;
+}
+.parag {
+  width: 390px;
+}
+.sub-txt {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+}
