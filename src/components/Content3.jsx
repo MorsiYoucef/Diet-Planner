@@ -1,4 +1,5 @@
 import './Content3.css'
+import { Link } from 'react-router-dom'
 const Content3 = () => {
   return (
     <div className="footer">
@@ -12,13 +13,17 @@ const Content3 = () => {
         <h4>Get your personal meal plan, daily motivation and eating tips</h4>
         <h2>Select your gender</h2>
         <div className="buttons">
-          <button className="btn-2" style={{ marginTop: '30px' }}>
-            Female
-          </button>
+          <Link to="/Quiz">
+            <button className="btn-2" style={{ marginTop: '30px' }}>
+              Female
+            </button>
+          </Link>
 
-          <button className="btn-1" style={{ marginTop: '30px' }}>
-            Male
-          </button>
+          <Link to="/Quiz">
+            <button className="btn-1" style={{ marginTop: '30px' }}>
+              Male
+            </button>
+          </Link>
         </div>
       </div>
     </div>

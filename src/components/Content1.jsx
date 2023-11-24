@@ -19,7 +19,9 @@ const Content1 = () => {
           <Link to="/Quiz">
             <button className="btn-2">Female</button>
           </Link>
-          <button className="btn-1">Male</button>
+          <Link to="/Quiz">
+            <button className="btn-1">Male</button>
+          </Link>
         </div>
       </div>
       <img
